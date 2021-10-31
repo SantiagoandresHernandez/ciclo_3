@@ -16,7 +16,7 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public class RepositorioReservaciones {
-    @Autowired
+    //@Autowired
     private InterfaceReservaciones crud4;
     
     public List<Reservaciones> getAll(){

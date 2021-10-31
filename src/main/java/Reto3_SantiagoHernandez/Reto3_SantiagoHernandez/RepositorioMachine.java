@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public class RepositorioMachine {
-    @Autowired
+    //@Autowired
     private interfaceMachine crud;
     
     public List<Machine> getAll(){

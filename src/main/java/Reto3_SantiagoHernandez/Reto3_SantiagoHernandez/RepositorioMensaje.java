@@ -16,7 +16,7 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public class RepositorioMensaje {
-    @Autowired
+    //@Autowired
     private InterfaceMensaje crud3;
     
     public List<Mensaje> getAll(){

@@ -12,7 +12,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public class RepositorioCategoria {
-    @Autowired
+    //@Autowired
     private InterfaceCategoria crud;
     
     public List<Categoria> getAll(){
